@@ -1,0 +1,28 @@
+# Cursor IDE Rules for Maser Media Agency Website Design
+
+## HTML Standards
+- Use semantic HTML elements for better accessibility and SEO.
+- Ensure HTML is valid and well-structured (use validators).
+
+## CSS Architecture
+- Follow BEM (Block Element Modifier) methodology for class naming convention.
+- Organize styles into separate files/modules for components, layouts, and utilities.
+- Use a CSS preprocessor (like SASS or LESS) to maintain clean and scalable styles.
+
+## Brand Colors
+- Primary Color: #004080 (Deep Blue)
+- Secondary Color: #FFCC00 (Gold)
+- Accent Color: #FF6600 (Vibrant Orange)
+- Text Color: #333333 (Dark Gray)
+- Background Color: #FFFFFF (White)
+
+## Responsive Design
+- Implement media queries to ensure the design adapts to various screen sizes.
+- Use a fluid grid layout for flexibility across devices.
+- Test responsiveness on multiple devices and browsers to ensure consistency and performance.
+
+## Development Best Practices
+- Write clean, maintainable, and well-commented code.
+- Use version control (like Git) for tracking changes and collaboration.
+- Optimize images and assets for faster load times.
+- Conduct regular code reviews and pair programming sessions to maintain code quality.
