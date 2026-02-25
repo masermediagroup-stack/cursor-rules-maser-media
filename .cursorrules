@@ -1,7 +1,91 @@
-# Maser Media Brand Colors
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Rules</title>
+    <style>
+        /* CSS Architecture */
+        body {
+            background-color: #F8F8F8; /* Light Gray */
+            color: #333;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
 
-## COLORWAY Palette
-- Light Gray: #F8F8F8  
-- Bright Blue: #10A4FF  
-- Medium Blue: #0097F5  
-- Dark Teal Blue: #0065A3
+        h1, h2, h3 {
+            color: #10A4FF; /* Bright Blue */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .btn {
+            background-color: #0097F5; /* Medium Blue */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0065A3; /* Dark Teal Blue */
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Cursor Rules</h1>
+    <h2>Introduction</h2>
+    <p>This document outlines the cursor rules and best practices for development.</p>
+
+    <h2>HTML Standards</h2>
+    <p>Adhere to the following HTML standards:</p>
+    <ul>
+        <li>Always include a doctype.</li>
+        <li>Use semantic HTML whenever possible.</li>
+        <li>Ensure accessibility by using proper ARIA labels.</li>
+    </ul>
+
+    <h2>CSS Architecture</h2>
+    <p>Follow these CSS architecture practices:</p>
+    <ul>
+        <li>Keep styles modular and reusable.</li>
+        <li>Utilize BEM (Block Element Modifier) methodology.</li>
+        <li>Organize styles in a way that promotes maintainability.</li>
+    </ul>
+
+    <h2>Responsive Design</h2>
+    <p>Ensure your designs are responsive:</p>
+    <ul>
+        <li>Use fluid grids and flexible images.</li>
+        <li>Implement media queries for different screen sizes.</li>
+        <li>Test designs on various devices.</li>
+    </ul>
+
+    <h2>Development Best Practices</h2>
+    <p>Follow these best practices for development:</p>
+    <ul>
+        <li>Write clean and well-documented code.</li>
+        <li>Use version control systems.</li>
+        <li>Perform code reviews regularly.</li>
+    </ul>
+
+    <h2>Maser Media COLORWAY Palette</h2>
+    <p>Here are the colors of our updated Maser Media COLORWAY palette:</p>
+    <ul>
+        <li>Light Gray: <span style="color:#F8F8F8">#F8F8F8</span></li>
+        <li>Bright Blue: <span style="color:#10A4FF">#10A4FF</span></li>
+        <li>Medium Blue: <span style="color:#0097F5">#0097F5</span></li>
+        <li>Dark Teal Blue: <span style="color:#0065A3">#0065A3</span></li>
+    </ul>
+</body>
+</html>
